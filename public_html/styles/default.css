@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 8, 2014, 8:57:21 AM
+    Author     : juchtdi
+*/
+
+/*
+    CSS RESET STYLES
+    (Eric Meyer reset guide)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*
+    END OF RESET STYLES
+*/
+
+div{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko         */
+    box-sizing: border-box; 
+}
+
+body{
+    min-height: 600px;
+    min-width: 800px;
+    height: 900px;
+    margin: auto;
+}
+
+#banner{
+    height: 10%;
+    margin: 1% auto 1%;   
+    border: 1px solid;   
+}
+
+#contents{
+   height:80%;
+   margin: 1% auto 1%;
+}
+
+#leftSide{  
+    float:left;
+    width: 55%;
+    height:100%;   
+}
+
+#planning{
+    height: 60%;
+    margin: 0% 1% 1% 0%;
+    border: 1px solid;   
+}
+
+#googlemap{
+    height: 39%;
+    margin: 1% 1% 0% 0%;
+    border: 1px solid;   
+}
+
+#rightSide{
+    float:right;
+    width: 45%;
+    height:100%;
+}
+
+#activities{
+    height: 100%;
+    margin: 0% 0% 0% 1%;
+    border: 1px solid;   
+}
+
+#footer{
+    clear: both;
+    
+    border-top: 1px solid;   
+}
+
+#gmap_canvas img{
+    max-width:none!important;
+    background:none!important
+}
+
